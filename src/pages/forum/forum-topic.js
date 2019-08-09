@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default class NotFound extends React.Component {
+export default class ForumTopic extends React.Component {
     render() {
         return(
             <div>
-				<h1>Page not found</h1>
+				<h1>A Forum Topic</h1>
 			</div>
         )
     }
