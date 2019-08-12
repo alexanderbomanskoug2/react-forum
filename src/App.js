@@ -28,9 +28,9 @@ function App() {
 				<Route exact path='/forum/:cat/:topic/:thread' component={ForumThread}/>
 
 				{/* User Part */}
-				<Route exact path='/user/:user' component={Profile}/>
 				<Route exact path='/user/login' component={Login}/>
 				<Route exact path='/user/register' component={Register}/>
+				<Route exact path='/user/:user' component={Profile}/>
 
 				{/* Keep this last as a default route */}
 				<Route component={NotFound} />
